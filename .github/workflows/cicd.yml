@@ -24,7 +24,7 @@ jobs:
         run: ./gradlew clean build -x test # 테스트 생략
 
       - name: Get current time
-        uses: josStorer/get-time-action@v2.0.2
+        uses: josStorer/get-current-time@v2.0.2
         id: current-time
         with:
           format: YYYY-MM-DD_hh-mm-ss
